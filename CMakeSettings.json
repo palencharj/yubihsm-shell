@@ -1,0 +1,22 @@
+﻿{
+  "configurations": [
+    {
+      "name": "x64-Debug",
+      "generator": "Visual Studio 17 2022 Win64",
+      "configurationType": "Debug",
+      "buildRoot": "${projectDir}\\out\\build\\${name}",
+      "installRoot": "${projectDir}\\out\\install\\${name}",
+      "cmakeCommandArgs": "cmake -DENABLE_CERT_COMPRESS=ON -DGETOPT_LIB_DIR=C:\\vcpkg\\packages\\getopt-win32_x64-windows\\lib -DGETOPT_INCLUDE_DIR=C:\\vcpkg\\packages\\getopt-win32_x64-windows\\include -DZLIB_LIBRARY=C:\\vcpkg\\packages\\zlib_x64-windows\\lib\\zlib.lib -DZLIB_INCLUDE_DIR=C:\\vcpkg\\packages\\zlib_x64-windows\\include",
+      "inheritEnvironments": [ "msvc_x64" ]
+    },
+    {
+      "name": "x64-R",
+      "generator": "Visual Studio 17 2022 Win64",
+      "configurationType": "Release",
+      "buildRoot": "${projectDir}\\out\\build\\${name}",
+      "installRoot": "${projectDir}\\out\\install\\${name}",
+      "cmakeCommandArgs": "cmake -DENABLE_CERT_COMPRESS=ON -DGETOPT_LIB_DIR=C:\\vcpkg\\packages\\getopt-win32_x64-windows\\lib -DGETOPT_INCLUDE_DIR=C:\\vcpkg\\packages\\getopt-win32_x64-windows\\include -DZLIB_LIBRARY=C:\\vcpkg\\packages\\zlib_x64-windows\\lib\\zlib.lib -DZLIB_INCLUDE_DIR=C:\\vcpkg\\packages\\zlib_x64-windows\\include",
+      "inheritEnvironments": [ "msvc_x64" ]
+    }
+  ]
+}

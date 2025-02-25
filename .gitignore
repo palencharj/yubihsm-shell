@@ -65,3 +65,5 @@ cov
 cov.info
 coverage.dat
 .vscode/
+.vs/
+/resources/release/win/yubihsm-shell-x64
